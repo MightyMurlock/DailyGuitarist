@@ -1,0 +1,362 @@
+body {
+    /* font-family: calibri; */
+    font-family: monospace;
+    background-image: linear-gradient(to left top, #483d8b, #5c58a0, #7174b3, #8990c7, #a3add9);
+    background-repeat: no-repeat;
+    margin: 0;
+    
+   }
+   /*-----NAVIGATION-BAR-----*/
+   /*------------------------*/
+   nav {
+       padding: 3em;
+       border-radius: 7.5px;
+       background-image: linear-gradient(to bottom, #494554, #3e394c, #332e45, #27233d, #1c1836); 
+       margin-right: 10%;
+       margin-left: 10%;
+       margin-bottom: 2.75%;
+       left:0;
+       right:0;
+       
+       
+   }
+   nav ul {
+       list-style: none;
+       justify-content:space-between;
+       /* margin-left: -3em; */
+       margin-left: -2.75%;
+       /* margin-top: -2.7em; */
+       margin-top: -2.55%;
+       
+       padding: 17px;
+       /* padding: 1%; */
+   }
+   nav ul li a {
+       text-decoration: none;
+       margin: 5px;
+       text-align: center;
+       
+       border: 1px solid transparent;
+       border-radius: 2px;
+    
+       /* font-size: 20px; */
+       font-size: 1.25vw;
+    
+       padding: 5px;
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+    
+   nav ul li a:hover {
+       background-color: #1C1836;
+       border-color: transparent
+   }
+    
+   nav ul div.navleft a {
+       color: #DDD1FE;
+       float: left;
+       
+   }
+   nav ul div.navright a {
+       color: #DDD1FE;
+       float: right;
+       margin-right: -1.5em;
+   }
+   header div.navlogo a {
+       font-family: calibri;
+       font-size: 3.75vw;
+       text-decoration: none;
+       color: #1C1836;
+    
+       padding-left: 4em;
+   }
+    
+   /* ----DROPDOWN MENUES----*/
+   /* ----------#1-----------*/
+   nav ul div.navleft div.dropdown:hover div.dropdown-content {
+       display: inline-grid;  
+   }
+   .dropdown-content {
+       display:none;
+       position: absolute;
+       
+   }
+   .dropdown-content a {
+       text-decoration: none;
+       margin: 5px;
+       text-align: center;
+       
+       border: 1px solid transparent;
+       border-radius: 2px;
+       background-color: #1C1836;
+    
+       font-size: 1.25vw;
+    
+       padding: 5px;
+       padding-left: 27px;
+       padding-right: 27px;
+    
+       z-index: 1;
+    
+       position: relative
+   }
+   .dropdown-content {
+       /* margin-left: -12.15em;
+       margin-top: 3.15em; */
+       left: 41.125%;
+       top: 16.25%;
+   }
+   /* -----------------------*/
+   /* ----------#2-----------*/
+   div.dropdown0:hover div.dropdown-content0 {
+       display: inline-grid;
+   }
+   .dropdown-content0 {
+       display:none;
+       position: absolute;
+   }
+   .dropdown-content0 a {
+       text-decoration: none;
+       margin: 5px;
+       text-align: center;
+       
+       border: 1px solid transparent;
+       border-radius: 2px;
+       background-color: #1C1836;
+    
+       font-size: 1.25vw;
+    
+       padding: 5px;
+       padding-left: 27px;
+       padding-right: 27px;
+    
+       z-index: 1;
+    
+       position: relative
+   }
+   .dropdown-content0 {
+       /* margin-left: -12.09em;
+       margin-top: 3.15em */
+       left: 26.77%;
+       top: 16.25%;
+   }
+   div.dropdown0 a {
+       padding-right: 26px;
+       padding-left: 26px;
+   }
+   /* -----------------------*/
+   /* -----------------------*/
+    
+   main {
+       /* width: 1750px;
+       height: 1750px; */
+       width: 90%;
+       min-width: 200px;
+       height: 1750px;
+       background-color:#494554;
+       border: 1px solid transparent;
+       border-radius: 7.5px;
+    
+       /* margin-left: 5em;
+       margin-top: 2.5em; */
+       margin:0 auto;
+       left: 0;
+       right: 0;
+   }
+    main aside .aside{
+       position: relative;
+       float: right;
+       top: 1.5em;
+       right: 3.125em;
+    
+       /* font-size: 2.188vw; */
+       font-size: 1.37vw;
+       font-family: calibri;
+       color: #DDD1FE;
+       text-align: center;
+   }
+    main aside .aside hr {
+        height: 5px;
+        border-radius: 7.5px;
+        background-color: #1C1836;
+        border-color:transparent;
+        position: relative;
+        top: -0.5em;
+   }
+    main aside .aside .songtoday{
+        position: relative;
+        top: -0.25em;
+   }
+   main aside .aside h2{
+        text-align: left;
+        font-family: calibri;
+        font-size: 1.37vw;
+        margin-top: -10px;
+        
+        color: white;
+
+        padding-top: 15px;
+        padding-left: 20px;
+   }
+   main aside .aside li{
+        list-style-type: none;
+        border: transparent;
+        border-radius: 12px;
+        background-color: #282828
+   }
+   main aside .aside li ul{
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 12px;
+        margin-top: -12px;
+
+        color:white;
+        font-size: 12px;
+        font-family: monospace;
+   }
+   main aside .aside li ul:hover{
+    color: #DDD1FE;
+   }
+   /* main aside .concertdates{
+        width: 300px;
+        height: 352px; */
+        /* border-radius: 12px; */
+        /* background-color:#282828;
+        position: relative;
+        float: right;
+        text-align: center;
+        color:#DDD1FE;
+        font-family: calibri;
+        font-size: 1.37vw;
+        left: 10.5em;
+        top: 22em
+   } */
+   /* main aside .concertdates hr{
+        top: -0.5em;
+        height: 5px;
+        border-radius: 7.5px;
+        background-color: #1C1836;
+        border-color:transparent;
+        position: relative;
+   }
+   main aside .concertdates h2{
+        text-align: left;
+        font-size: 20px;
+   } */
+
+   main section.latestnews {
+        position: relative;
+        float: left;
+        width: 65%;
+
+        top: 5px;
+        left: 1em;
+
+        font-size: 2.188vw;
+        font-family: calibri;
+        color: #DDD1FE;
+        text-align: left;
+   }
+   main section.latestnews hr{
+        background-color: #1C1836;
+        height: 5px;
+        border-color:transparent;
+        border-radius: 7.5px;
+        position: relative;
+        top: -45px;
+   }
+   main section.latestnews .ar1{
+    border: 2px solid;
+    border-color: #1C1836;
+    font-size: 20px;
+    position: relative;
+    /* top: -2em; */
+    margin-bottom: 1em;
+    background-color:#1C1836;
+   }
+   main section.latestnews .ar1 h2 {
+    font-size: 2vw;
+   }
+   main section.latestnews .ar2{
+    border: 2px solid;
+    border-color: #1C1836;
+    font-size: 20px;
+    position: relative;
+    /* top: -2em; */
+    margin-bottom: 1em;
+    background-color:#1C1836;
+   }
+   main section.latestnews .ar2 h2 {
+    font-size: 2vw;
+   }
+   main section.latestnews .ar3{
+    border: 2px solid;
+    border-color: #1C1836;
+    font-size: 20px;
+    position: relative;
+    /* top:-2em; */
+    margin-bottom: 1em;
+    background-color:#1C1836;
+   }
+   main section.latestnews .ar3 h2{
+    font-size: 2vw;
+   }
+   main section.newestguides{
+        position: relative;
+        float: left;
+        width: 65%;
+
+        top: 5px;
+        left: 1em;
+
+        font-size: 2.188vw;
+        font-family: calibri;
+        color: #DDD1FE;
+        text-align: left;    
+   }
+   main section.newestguides hr{
+        background-color: #1C1836;
+        height: 5px;
+        border-color:transparent;
+        border-radius: 7.5px;
+        position: relative;
+        top: -45px;
+        /* margin-bottom: -20px */
+   }
+   main section.store{
+        position: relative;
+        float: left;
+        width: 65%;
+
+        top: 5px;
+        left: 1em;
+
+        font-size: 2.188vw;
+        font-family: calibri;
+        color: #DDD1FE;
+        text-align: left;  
+   }
+   main section.store hr {
+        background-color: #1C1836;
+        height: 5px;
+        border-color:transparent;
+        border-radius: 7.5px;
+        position: relative;
+        top: -45px;
+   }
+
+   footer {
+       padding: 1em;
+       text-align: center;
+       color: #DDD1FE;
+       clear: both;
+   }
+   footer hr {
+       width: 17.5%;
+       background-color: #1C1836;
+       border-color: transparent;
+   }
+   footer:hover {
+        color: white;
+   }
